@@ -1,6 +1,3 @@
-# Statistics-for-ML
-Basic statistics for machine learning
-
 # Introduction
 
 **PAC(Probably Approximately Correct) learning model**. Find a good model with a high probability
