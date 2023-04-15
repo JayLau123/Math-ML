@@ -96,3 +96,37 @@ Thousands of other problems seem similar, in that they are fast to check but slo
 $\hat{H}|\psi \rangle=E |\psi \rangle$ can't be solved exactly than a hydrogen atom, with a finite amount of computing resources in a finite amount of time. For $N$ charged particels, there are $C_n^2=\dfrac{N(N-1)}{2}$ interacting pairs, this is known for "many-body problem", which is unsolvable for $N>2$. That's why we can only solve it for $H$ atom, containg only one electron and one nucleus, but we can't solve it exactly for any molecular system which has more than two charged particles.
 
 The difficulty of solving such a problem scales as an exponential in the number of particles: $\mathcal{O}(e^N)$, it's not twice as difficult to solve the problem if you go from 2 particles to 4 particles. This is where we have to start approximations in order to be able to get a handle on the molecular hamiltonian and try to get out some approximate solutions which will eventually end up at Hartree-Fock theory.
+
+## Bayesian statistics
+
+### Naive Bayes classifier
+
+Naive Bayes is a simple probabilistic algorithm used for **classification tasks**. It is based on the Bayes theorem, which is used to calculate the probability of a hypothesis based on prior knowledge.
+
+In the context of classification, the Naive Bayes classifier assumes that the presence or absence of a feature in a class is independent of the presence or absence of any other feature in the same class. This is known as the "naive" assumption and is why the algorithm is called "Naive Bayes".
+
+The Naive Bayes classifier works by first learning the probabilities of each class and the probabilities of each feature given each class from a training set of labeled examples. Then, given a new, unlabeled example, the algorithm calculates the probability of the example belonging to each class based on its features using Bayes' theorem. The class with the highest probability is then assigned to the example.
+
+Naive Bayes classifiers are popular in text classification tasks, such as spam filtering, sentiment analysis, and topic classification, as well as in other domains such as image and speech recognition. They are fast, simple, and require relatively small amounts of training data.
+
+### Bayesian network
+
+A Bayesian network, also known as a belief network or a **probabilistic graphical model**, is a probabilistic model that represents a set of variables and their conditional dependencies using a directed acyclic graph (DAG).
+
+In a Bayesian network, each node in the graph represents a random variable, and each edge represents a probabilistic dependency between the variables. The nodes and edges are annotated with conditional probability distributions that specify the probability of a node given its parent nodes in the graph.
+
+Bayesian networks can be used for a variety of tasks, including classification, prediction, and decision making, and are particularly useful when dealing with uncertainty or incomplete information. For example, a Bayesian network can be used to diagnose a patient's illness based on their symptoms, or to predict the likelihood of an event occurring based on a set of observed variables.
+
+One advantage of Bayesian networks is that they allow for efficient inference, which means that they can quickly and accurately calculate the probabilities of certain events or variables given other observed or unobserved variables. This makes them useful in a wide range of applications, including machine learning, data analysis, and decision support systems.
+
+### Bayesian deep learning(BDL)
+
+Bayesian deep learning is a subfield of machine learning that combines the powerful representation learning capabilities of deep neural networks with Bayesian inference methods.
+
+In traditional deep learning, the parameters of the neural network are optimized using deterministic methods, such as gradient descent, to minimize a loss function. In contrast, Bayesian deep learning treats the **parameters as random variables** and applies Bayesian inference to estimate their posterior distributions given the data.
+
+Bayesian deep learning provides a principled way to incorporate prior knowledge into the model and to quantify uncertainty in the predictions. This can lead to more robust and accurate models, especially in situations where data is limited or noisy.
+
+Some common approaches to Bayesian deep learning include Bayesian neural networks, variational autoencoders, and Gaussian processes. These methods often require more computational resources and can be more challenging to implement than traditional deep learning methods. However, they offer the potential for improved performance and better insights into the underlying structure of the data.
+
+In materials research, some parameters in a machine learning model represent the physical properties, and it's likely to find their distribution by modeling the parameters as random variables
