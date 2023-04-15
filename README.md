@@ -99,6 +99,25 @@ The difficulty of solving such a problem scales as an exponential in the number 
 
 ## Bayesian statistics
 
+**Conditional probability** is a measure of the probability of an event occurring, given that another event (by assumption, presumption, assertion or evidence) has already occurred.
+
+The probability of A under the condition B:
+
+$P(A \mid B)=\dfrac{P(A \cap B)}{P(B)}$
+
+$P(A \cap B)=P(B \mid A) P(A)=P(A \mid B) P(B) \Rightarrow$ **Bayes' theorem**
+
+
+**Bayes' theorem**
+
+$P(A \mid B)=\dfrac{P(B \mid A) P(A)}{P(B)}$
+
+$P(A \mid B)$ is a conditional probability: the probability of event $A$ occurring given that B is true. It is also called the posterior probability of 
+A given B.
+
+If $A$ and $B$ are indenpendent, $P(A \mid B)=P(A), P(B \mid A)=P(B)$ 
+
+
 ### Naive Bayes classifier
 
 Naive Bayes is a simple probabilistic algorithm used for **classification tasks**. It is based on the Bayes theorem, which is used to calculate the probability of a hypothesis based on prior knowledge.
