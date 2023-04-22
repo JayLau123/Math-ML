@@ -20,28 +20,9 @@ Statistics plays a crucial role in machine learning, as many ML techniques are r
 
 To use statistical methods to study machine learning, it is essential to have a solid understanding of both statistical concepts and ML algorithms. You can start by familiarizing yourself with the relevant statistical methods and tools, such as R, Python's NumPy, SciPy, and scikit-learn libraries, and then apply these methods to various ML tasks and datasets to gain practical experience.
 
-**PAC(Probably Approximately Correct) learning model**. Find a good model with a high probability
+## Bayesian method
 
-$$P(|f(x)-y| \leq \epsilon) \geq 1-\delta$$
-
-Science, Technology, Engineering
-
-Science: what, why
-
-Technology: how
-
-Engineering: reduce the cost, improve the effiency, industrialization
-
-What is Machine Learning: Using experience to improve the performance of the system.《Machine Learning》T.Mitchell
-
-
-Summarize knowledge from experience, experience comes from information, information comes from data, data contains knowledge, knowledge contains wisdom.
-从经验里面总结出知识，经验来自信息，信息来自数据，数据里面蕴藏着知识，知识里面还有智慧
-
-Data—information—knowledge—wisdom, with knowledge and wisdom, improve efficiency, create value, and increase productivity
-数据——信息——知识——智慧，有了知识和智慧，提高效率，创造价值，提高生产力
-
-## The Bayesian method is an approach to statistical inference based on Bayes' theorem, which provides a way to update the probabilities of hypotheses or parameters given observed data. The Bayesian method differs from traditional (frequentist) statistics in that it explicitly incorporates prior knowledge and uncertainty about the unknown quantities, represented as probability distributions, and combines them with the observed data to obtain updated (posterior) probability distributions.
+The Bayesian method is an approach to statistical inference based on Bayes' theorem, which provides a way to update the probabilities of hypotheses or parameters given observed data. The Bayesian method differs from traditional (frequentist) statistics in that it explicitly incorporates prior knowledge and uncertainty about the unknown quantities, represented as probability distributions, and combines them with the observed data to obtain updated (posterior) probability distributions.
 
 Bayes' theorem is stated as follows:
 
@@ -70,6 +51,29 @@ The Bayesian method has several advantages, such as:
 However, Bayesian methods also have some drawbacks, such as increased computational complexity and the need to choose suitable prior distributions, which can sometimes be subjective and lead to biased results if not chosen carefully.
 
 Bayesian methods have been applied to various fields, including machine learning, physics, engineering, economics, and medicine. In machine learning, Bayesian techniques have been used for tasks such as model selection, parameter estimation, and prediction in algorithms such as linear regression, neural networks, and clustering.
+
+
+
+**PAC(Probably Approximately Correct) learning model**. Find a good model with a high probability
+
+$$P(|f(x)-y| \leq \epsilon) \geq 1-\delta$$
+
+Science, Technology, Engineering
+
+Science: what, why
+
+Technology: how
+
+Engineering: reduce the cost, improve the effiency, industrialization
+
+What is Machine Learning: Using experience to improve the performance of the system.《Machine Learning》T.Mitchell
+
+
+Summarize knowledge from experience, experience comes from information, information comes from data, data contains knowledge, knowledge contains wisdom.
+从经验里面总结出知识，经验来自信息，信息来自数据，数据里面蕴藏着知识，知识里面还有智慧
+
+Data—information—knowledge—wisdom, with knowledge and wisdom, improve efficiency, create value, and increase productivity
+数据——信息——知识——智慧，有了知识和智慧，提高效率，创造价值，提高生产力
 
 **AI & ML: data, algorithm, computational resource**
 
