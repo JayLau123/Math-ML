@@ -1,5 +1,24 @@
 # Introduction
 
+Statistics plays a crucial role in machine learning, as many ML techniques are rooted in statistical concepts and methods. Statistical methods can be used to study machine learning in various ways, including the design of learning algorithms, the evaluation of model performance, and the interpretation of results. Here are some ways to use statistical methods to study machine learning:
+
+1. Model selection and evaluation: Statistical methods are essential for comparing different ML models, selecting the best one, and evaluating its performance. Techniques such as cross-validation, bootstrapping, and hypothesis testing can be used to assess the performance of a model and ensure its generalization to new, unseen data.
+
+2. Feature selection: Statistical methods can be employed to identify the most relevant features in a dataset, which can improve model performance and reduce computational complexity. Techniques such as correlation analysis, mutual information, and stepwise regression can help determine which features have the most significant impact on the target variable.
+
+3. Regularization: Regularization techniques, such as L1 (Lasso) and L2 (Ridge) regularization, are used to control the complexity of ML models and prevent overfitting. These techniques are based on statistical concepts, such as penalizing large coefficients in linear regression models, which can lead to more robust and generalizable models.
+
+4. Bayesian methods: Bayesian methods, rooted in probability and statistics, can be used in machine learning for tasks such as model selection, parameter estimation, and prediction. Bayesian techniques provide a principled way to incorporate prior knowledge and uncertainty into ML models and can be applied to various ML algorithms, including linear regression, neural networks, and clustering.
+
+5. Dimensionality reduction: Statistical methods such as principal component analysis (PCA) and factor analysis can be used to reduce the dimensionality of a dataset, which can improve model performance and reduce computational costs.
+
+6. Probability distributions and density estimation: Many ML algorithms rely on probability distributions and density estimation techniques, such as Gaussian mixture models and kernel density estimation, to model the underlying structure of the data.
+
+7. Time series analysis: Statistical methods for time series analysis, including autoregressive and moving average models, can be applied to ML tasks involving time-dependent data, such as predicting stock prices or analyzing sensor data from IoT devices.
+
+8. Experimental design: Statistical methods for experimental design, such as randomization and stratification, can be used to ensure that ML models are trained and tested on representative data samples, which can improve model performance and generalization.
+
+
 **PAC(Probably Approximately Correct) learning model**. Find a good model with a high probability
 
 $$P(|f(x)-y| \leq \epsilon) \geq 1-\delta$$
