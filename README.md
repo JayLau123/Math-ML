@@ -18,6 +18,7 @@ Statistics plays a crucial role in machine learning, as many ML techniques are r
 
 8. Experimental design: Statistical methods for experimental design, such as randomization and stratification, can be used to ensure that ML models are trained and tested on representative data samples, which can improve model performance and generalization.
 
+To use statistical methods to study machine learning, it is essential to have a solid understanding of both statistical concepts and ML algorithms. You can start by familiarizing yourself with the relevant statistical methods and tools, such as R, Python's NumPy, SciPy, and scikit-learn libraries, and then apply these methods to various ML tasks and datasets to gain practical experience.
 
 **PAC(Probably Approximately Correct) learning model**. Find a good model with a high probability
 
