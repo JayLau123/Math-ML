@@ -92,16 +92,14 @@ $x$ is a new sample/data point/observation, $y$ is the true answer/label, if the
 ### P=NP? 
 
 P：finding the solution to the problem in polynomial time.
-在多项式时间里，找到问题的解
 
 NP：Can the solution of a problem given in polynomial time be verified?
-在多项式时间里，给出一个问题的解，能否验证？
 
 **For example, Google search：given a key word, can it give the best result in polynomial time complexity? Or even, given a possible result, can it be verified to be optimal in polynomial time? The answer to the question is NO
-提供一个key word, 能否在多项式时间复杂度内给出最佳结果？甚至是，给出一个查询结果，能否在多项式时间里验证它就是最优的？No
+
 
 Actually, a large number of problems in real life are beyond the scope of NP, and even if a solution to a problem is given, we cannot verify in polynomial time whether this is the optimal solution
-现实生活中的大量问题，已经超出NP范围，哪怕给出一个问题的解，我们也无法在多项式时间里验证这个是否是最优解
+
 
 **Wikipedia: P=NP?** 
 
