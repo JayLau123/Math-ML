@@ -87,7 +87,7 @@ $$P(|f(x)-y| \leq \epsilon) \geq 1-\delta$$
 
 $x$ is a new sample/data point/observation, $y$ is the true answer/label, if the prediction is very accurate, then $|f(x)-y|\leq \epsilon$, where $\epsilon$ is a very small number. We hope to find such function $\boldsymbol{f}$ with a high probability: $P(|f(x)-y| \leq \epsilon) \geq 1-\delta$, where $\delta$ is a very small number.
 
-**Note: the term probability used above, means that we can not solve the problem with 100% accuracy. Most events in our life are probabilistic, instead of deterministic, how can we solve such kind of problems with more confidence? We need experience. Based on the previous experience or historical data, we can minimize uncertainty to maximun extent. From this point of view, it's like the definition of information from Shannon. Actually, statistics reflect the limitations of human cognition, and it is an effort that human beings are unable to fully grasp the chance, but they still have to understand nature to their best under the constraints.**
+**Note: the term probability used above, means that we can not solve the problem with 100% accuracy. Most events in our life are probabilistic, instead of deterministic, how can we solve such kind of problems with more confidence? We need experience. Based on the previous experience or historical data, we can minimize uncertainty to maximun extent. From this point of view, it's like the definition of information from Shannon. Actually, statistics reflect the limitations of human cognition, and it is an effort that human beings are unable to fully grasp the chance, but they still have to understand nature to their best under the constraints. Statistics protects us from coming to the wrong conclusion.**
 
 ### P=NP? 
 
